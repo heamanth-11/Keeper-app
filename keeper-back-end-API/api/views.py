@@ -82,3 +82,4 @@ def deleteTrashNote(request):
     record.delete()
     return Response('Item Deleted Successfully!.. ')
 
+

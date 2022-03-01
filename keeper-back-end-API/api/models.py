@@ -20,4 +20,4 @@ class TrashNotes(models.Model):
     note = models.TextField()
 
     def _str_(self):
-        return self.title
+        return self.note

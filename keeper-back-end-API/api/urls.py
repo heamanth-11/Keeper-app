@@ -12,3 +12,4 @@ urlpatterns = [
     path('deletetrashnote',views.deleteTrashNote,name='deleteTrashNote'),
     
     ]
+    
